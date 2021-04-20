@@ -1,0 +1,327 @@
+// Common CSS
+@import 'reset';
+@import 'variable';
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: $common-color;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+//top area
+
+.bg {
+    background-image: url(../img/top-bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.top-area {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    &__working {
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 15px;
+
+    }
+
+    &__stay {
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    &__time-container {
+        width: 600px;
+        display: flex;
+        justify-content: space-around;
+        margin: 40px auto;
+
+        &__time {
+            border: 2px solid;
+
+            &__item {
+                margin: 5px;
+                width: 100px;
+                height: 110px;
+
+                &__digit {
+                    font-size: 60px;
+                    color: #fff;
+                    font-weight: 700;
+                }
+
+                &__text {
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__subscribe-text {
+        font-size: 20px;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    &__subscribe-button-ext {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid;
+        width: 500px;
+        margin: 0 auto 40px;
+
+        &__insert-text {
+            width: 300px;
+            text-align: left;
+            color: rgb(200, 200, 200);
+            margin: auto 0 auto 10px;
+        }
+
+        &__btn {
+            padding: 10px 35px;
+            font-size: 25px;
+            color: #fff;
+            background-color: $common-color;
+            border: none;
+
+            &:hover {
+                background-color: #fff;
+                color: $common-color;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    &__social-link {
+        color: #fff;
+        font-size: 40px;
+        padding-bottom: 25px;
+
+        .fa-facebook:hover {
+            color: #447399;
+            transition: 0.5s;
+
+        }
+
+        .fa-twitter:hover {
+            color: #64A8DF;
+            transition: 0.5s;
+
+        }
+
+        .fa-instagram-square:hover {
+            color: #CC2D78;
+            transition: 0.5s;
+
+        }
+
+        .fa-linkedin:hover {
+            color: #0077B5;
+            transition: 0.5s;
+
+        }
+
+        .fa-facebook-messenger:hover {
+            color: #0077B5;
+            transition: 0.5s;
+
+        }
+
+        .fa-pinterest:hover {
+            color: #CC2128;
+            transition: 0.5s;
+
+        }
+    }
+
+}
+
+//feature
+
+.feature-top {
+    h2{
+        font-size: 35px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+    &__line-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__horizontal-line-left {
+            width: 200px;
+
+            hr {
+                border: 1px solid;
+            }
+        }
+
+        &__box {
+            border: 2px solid;
+            width: 60px;
+            height: 60px;
+            margin: 20px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin: 8px;
+            }
+        }
+
+        &__horizontal-line-right {
+            width: 200px;
+
+            hr {
+                border: 1px solid;
+            }
+        }
+    }
+    &__service{
+        font-size: 35px;
+        color: $common-font-color;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+    &__text{
+        margin: 50px auto;
+        font-size: 18px;
+        color: $common-font-color;
+    }
+}
+//service-catagory
+
+.service-catagory{
+    display: flex;
+    gap: 50px;
+    &__item{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        &__img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid;
+            width: 80px;
+            height: 80px;
+            img {
+                width: 60px;
+                height: auto;
+            }
+        }
+        h2 {
+            text-transform: uppercase;
+            font-size: 35px;
+            color: #000;
+            font-weight: 700;
+        }
+        p {
+            font-size: 15px;
+        color: $common-font-color;
+        }
+    }
+}
+
+//about
+
+.about-bg{
+    background-color: #1B1B1B;
+    .feature-top--about{
+        h2 {
+            color: #fff;
+            padding-top: 50px;
+        }
+    }
+    .profile{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        &__img{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            img{
+                width: 246px;
+                height: 246px;
+                object-fit: cover;
+                border: 2px solid;
+            }
+        }
+        h2 {
+            font-size: 30px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 20px;
+            text-transform: capitalize;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+//form
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input{
+        border: none;
+        height: 200px;
+        color: $common-font-color;
+    }
+    .name-mail{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        input{
+            height: 40px;
+        }
+    }
+    input[type="submit"] {
+        height: 50px;
+        width: 120px;
+        background-color: $common-color;
+        color: #fff;
+        font-size: 18px;
+        align-self: center;
+    }
+    input[type="submit"]:hover {
+        background-color: #fff;
+        color: $common-color;
+        transition: 0.5s ;
+    }
+}
