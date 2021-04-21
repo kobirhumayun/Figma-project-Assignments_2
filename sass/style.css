@@ -64,7 +64,7 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -321,7 +321,7 @@ body {
 
 .service-catagory__item h2 {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 25px;
   color: #000;
   font-weight: 700;
 }
@@ -413,6 +413,7 @@ form .name-mail input {
 form input[type="submit"] {
   height: 50px;
   width: 120px;
+  margin-bottom: 50px;
   background-color: #00B9F7;
   color: #fff;
   font-size: 18px;
