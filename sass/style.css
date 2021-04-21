@@ -92,6 +92,13 @@ body {
   border-radius: 10px;
 }
 
+.top-area__setting-icon:hover {
+  background-color: #00B9F7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .top-area__setting-icon img {
   width: 35px;
   margin: 5px;

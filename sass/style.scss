@@ -40,6 +40,11 @@ body {
         float: left;
         background-color: #efefef;
         border-radius: 10px;
+        &:hover{
+            background-color: $common-color;
+            transition: 0.5s;
+            cursor: pointer;
+        }
         img{
             width: 35px;
             margin: 5px;
