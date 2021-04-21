@@ -86,6 +86,17 @@ body {
   margin-bottom: 25px;
 }
 
+.top-area__setting-icon {
+  float: left;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+.top-area__setting-icon img {
+  width: 35px;
+  margin: 5px;
+}
+
 .top-area__working {
   font-size: 45px;
   text-transform: uppercase;
@@ -169,6 +180,7 @@ body {
   color: #00B9F7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link {
@@ -181,36 +193,42 @@ body {
   color: #447399;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link .fa-twitter:hover {
   color: #64A8DF;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link .fa-instagram-square:hover {
   color: #CC2D78;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link .fa-linkedin:hover {
   color: #0077B5;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link .fa-facebook-messenger:hover {
   color: #0077B5;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .top-area__social-link .fa-pinterest:hover {
   color: #CC2128;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .feature-top h2 {
@@ -427,5 +445,6 @@ form input[type="submit"]:hover {
   color: #00B9F7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
